@@ -118,16 +118,15 @@ int main ( void )
     {
         // source: http://chipkit.net/forum/viewtopic.php?t=3137
         if (bufferAFull == 0) {
-            bufferAFull = 1;
             buffer_pp = &buffer_a[0];
             generate_sine();
+            bufferAFull = 1;
             
         }
         if (bufferBFull == 0) {
-            bufferBFull = 1;
             buffer_pp = &buffer_b[0];
             generate_sine();
-           
+            bufferBFull = 1;
         }
     }
 
