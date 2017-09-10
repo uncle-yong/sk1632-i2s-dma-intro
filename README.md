@@ -5,4 +5,4 @@ Hardware: UDA1334ATS audio DAC, Cytron SK1632, PIC32MX150F128B.
 
 Software used: MPLAB X IDE v3.55, MPLAB Harmony v1.11, MPLAB XC32 v1.40.
 
-The frequency of the sine wave generated is 440Hz.
+The frequency of the sine wave generated is 440Hz and the sampling rate is 32kHz.
